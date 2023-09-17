@@ -37,4 +37,5 @@ CMakeFiles/1_2_KEY_LED.elf.dir/Core/Src/main.c.obj: \
  D:\STM32\HAL\1_2_KEY_LED\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
  D:\STM32\HAL\1_2_KEY_LED\Core\Inc/usart.h \
  D:\STM32\HAL\1_2_KEY_LED\Core\Inc/main.h \
- D:\STM32\HAL\1_2_KEY_LED\Core\Inc/gpio.h
+ D:\STM32\HAL\1_2_KEY_LED\Core\Inc/gpio.h \
+ D:\STM32\HAL\1_2_KEY_LED\User/Key.h

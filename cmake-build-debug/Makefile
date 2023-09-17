@@ -712,6 +712,30 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_2_KEY_LED.elf.dir\build.make CMakeFiles/1_2_KEY_LED.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 
+User/Key.obj: User/Key.c.obj
+.PHONY : User/Key.obj
+
+# target to build an object file
+User/Key.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_2_KEY_LED.elf.dir\build.make CMakeFiles/1_2_KEY_LED.elf.dir/User/Key.c.obj
+.PHONY : User/Key.c.obj
+
+User/Key.i: User/Key.c.i
+.PHONY : User/Key.i
+
+# target to preprocess a source file
+User/Key.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_2_KEY_LED.elf.dir\build.make CMakeFiles/1_2_KEY_LED.elf.dir/User/Key.c.i
+.PHONY : User/Key.c.i
+
+User/Key.s: User/Key.c.s
+.PHONY : User/Key.s
+
+# target to generate assembly for a file
+User/Key.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_2_KEY_LED.elf.dir\build.make CMakeFiles/1_2_KEY_LED.elf.dir/User/Key.c.s
+.PHONY : User/Key.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -794,6 +818,9 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s
+	@echo ... User/Key.obj
+	@echo ... User/Key.i
+	@echo ... User/Key.s
 .PHONY : help
 
 

@@ -417,6 +417,20 @@ CMakeFiles/1_2_KEY_LED.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ua
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/1_2_KEY_LED.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\HAL\1_2_KEY_LED\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\1_2_KEY_LED.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
 
+CMakeFiles/1_2_KEY_LED.elf.dir/User/Key.c.obj: CMakeFiles/1_2_KEY_LED.elf.dir/flags.make
+CMakeFiles/1_2_KEY_LED.elf.dir/User/Key.c.obj: D:/STM32/HAL/1_2_KEY_LED/User/Key.c
+CMakeFiles/1_2_KEY_LED.elf.dir/User/Key.c.obj: CMakeFiles/1_2_KEY_LED.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\HAL\1_2_KEY_LED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/1_2_KEY_LED.elf.dir/User/Key.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/1_2_KEY_LED.elf.dir/User/Key.c.obj -MF CMakeFiles\1_2_KEY_LED.elf.dir\User\Key.c.obj.d -o CMakeFiles\1_2_KEY_LED.elf.dir\User\Key.c.obj -c D:\STM32\HAL\1_2_KEY_LED\User\Key.c
+
+CMakeFiles/1_2_KEY_LED.elf.dir/User/Key.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/1_2_KEY_LED.elf.dir/User/Key.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\HAL\1_2_KEY_LED\User\Key.c > CMakeFiles\1_2_KEY_LED.elf.dir\User\Key.c.i
+
+CMakeFiles/1_2_KEY_LED.elf.dir/User/Key.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/1_2_KEY_LED.elf.dir/User/Key.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\HAL\1_2_KEY_LED\User\Key.c -o CMakeFiles\1_2_KEY_LED.elf.dir\User\Key.c.s
+
 # Object files for target 1_2_KEY_LED.elf
 1_2_KEY_LED_elf_OBJECTS = \
 "CMakeFiles/1_2_KEY_LED.elf.dir/Core/Src/gpio.c.obj" \
@@ -443,7 +457,8 @@ CMakeFiles/1_2_KEY_LED.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ua
 "CMakeFiles/1_2_KEY_LED.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" \
 "CMakeFiles/1_2_KEY_LED.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" \
 "CMakeFiles/1_2_KEY_LED.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
-"CMakeFiles/1_2_KEY_LED.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+"CMakeFiles/1_2_KEY_LED.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" \
+"CMakeFiles/1_2_KEY_LED.elf.dir/User/Key.c.obj"
 
 # External object files for target 1_2_KEY_LED.elf
 1_2_KEY_LED_elf_EXTERNAL_OBJECTS =
@@ -473,9 +488,10 @@ CMakeFiles/1_2_KEY_LED.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ua
 1_2_KEY_LED.elf: CMakeFiles/1_2_KEY_LED.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 1_2_KEY_LED.elf: CMakeFiles/1_2_KEY_LED.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 1_2_KEY_LED.elf: CMakeFiles/1_2_KEY_LED.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+1_2_KEY_LED.elf: CMakeFiles/1_2_KEY_LED.elf.dir/User/Key.c.obj
 1_2_KEY_LED.elf: CMakeFiles/1_2_KEY_LED.elf.dir/build.make
 1_2_KEY_LED.elf: CMakeFiles/1_2_KEY_LED.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\STM32\HAL\1_2_KEY_LED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C executable 1_2_KEY_LED.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\STM32\HAL\1_2_KEY_LED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking C executable 1_2_KEY_LED.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\1_2_KEY_LED.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/STM32/HAL/1_2_KEY_LED/cmake-build-debug/1_2_KEY_LED.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/STM32/HAL/1_2_KEY_LED/cmake-build-debug/1_2_KEY_LED.bin"

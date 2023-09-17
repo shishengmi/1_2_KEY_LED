@@ -23,7 +23,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "Key.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -65,7 +65,8 @@ void SystemClock_Config(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+  uint8_t key_get=0;
+  uint8_t flag=0;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -96,6 +97,11 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+    key_get=USER_GETKEY0();
+    if(key_get==1)
+    {
+      HAL_GPIO_TogglePin(GPIOF,GPIO_PIN_9);
+    }
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

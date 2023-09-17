@@ -26,6 +26,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "D:/STM32/HAL/1_2_KEY_LED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
   "D:/STM32/HAL/1_2_KEY_LED/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
   "D:/STM32/HAL/1_2_KEY_LED/Drivers/CMSIS/Include"
+  "D:/STM32/HAL/1_2_KEY_LED/User"
   )
 
 # The set of dependency files which are needed:
@@ -54,6 +55,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/STM32/HAL/1_2_KEY_LED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" "CMakeFiles/1_2_KEY_LED.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" "gcc" "CMakeFiles/1_2_KEY_LED.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj.d"
   "D:/STM32/HAL/1_2_KEY_LED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" "CMakeFiles/1_2_KEY_LED.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" "gcc" "CMakeFiles/1_2_KEY_LED.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj.d"
   "D:/STM32/HAL/1_2_KEY_LED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" "CMakeFiles/1_2_KEY_LED.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" "gcc" "CMakeFiles/1_2_KEY_LED.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj.d"
+  "D:/STM32/HAL/1_2_KEY_LED/User/Key.c" "CMakeFiles/1_2_KEY_LED.elf.dir/User/Key.c.obj" "gcc" "CMakeFiles/1_2_KEY_LED.elf.dir/User/Key.c.obj.d"
   )
 
 # Targets to which this target links.

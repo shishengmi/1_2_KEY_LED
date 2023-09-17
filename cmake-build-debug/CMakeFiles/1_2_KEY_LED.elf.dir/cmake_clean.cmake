@@ -51,6 +51,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/1_2_KEY_LED.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj.d"
   "CMakeFiles/1_2_KEY_LED.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
   "CMakeFiles/1_2_KEY_LED.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj.d"
+  "CMakeFiles/1_2_KEY_LED.elf.dir/User/Key.c.obj"
+  "CMakeFiles/1_2_KEY_LED.elf.dir/User/Key.c.obj.d"
 )
 
 # Per-language clean rules from dependency scanning.
