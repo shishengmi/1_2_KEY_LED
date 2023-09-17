@@ -27,12 +27,12 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/STM32/HAL/1_2_KEY_LED/User"/>
 					<Add directory="D:/STM32/HAL/1_2_KEY_LED/Core/Inc"/>
 					<Add directory="D:/STM32/HAL/1_2_KEY_LED/Drivers/STM32F4xx_HAL_Driver/Inc"/>
 					<Add directory="D:/STM32/HAL/1_2_KEY_LED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="D:/STM32/HAL/1_2_KEY_LED/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="D:/STM32/HAL/1_2_KEY_LED/Drivers/CMSIS/Include"/>
-					<Add directory="D:/STM32/HAL/1_2_KEY_LED/User"/>
 					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -57,12 +57,12 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/STM32/HAL/1_2_KEY_LED/User"/>
 					<Add directory="D:/STM32/HAL/1_2_KEY_LED/Core/Inc"/>
 					<Add directory="D:/STM32/HAL/1_2_KEY_LED/Drivers/STM32F4xx_HAL_Driver/Inc"/>
 					<Add directory="D:/STM32/HAL/1_2_KEY_LED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="D:/STM32/HAL/1_2_KEY_LED/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="D:/STM32/HAL/1_2_KEY_LED/Drivers/CMSIS/Include"/>
-					<Add directory="D:/STM32/HAL/1_2_KEY_LED/User"/>
 					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>

@@ -65,8 +65,7 @@ void SystemClock_Config(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-  uint8_t key_get=0;
-  uint8_t flag=0;
+
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -96,12 +95,25 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    /* USER CODE END WHILE */
-    key_get=USER_GETKEY0();
-    if(key_get==1)
+
+    if(USER_GETKEY0())
     {
       HAL_GPIO_TogglePin(GPIOF,GPIO_PIN_9);
     }
+
+    if(USER_GETKEY1())
+    {
+      HAL_GPIO_TogglePin(GPIOF,GPIO_PIN_10);
+    }
+
+    if(USER_GETKEY2())
+    {
+      HAL_GPIO_TogglePin(GPIOF,GPIO_PIN_10);
+      HAL_GPIO_TogglePin(GPIOF,GPIO_PIN_9);
+    }
+
+    /* USER CODE END WHILE */
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
